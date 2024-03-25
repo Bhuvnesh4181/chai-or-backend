@@ -1,9 +1,8 @@
-import e from "express";
-import {asynchandler} from "../utils/asynchandler.js";
-const resigerUser =asynchandler(async (res,req)=>{
+import { asyncHandler } from "../utils/asyncHandler.js";
+const resigerUser =asyncHandler(async (req,res)=>{
    res.status(200).json({
-    message:"ok"
+      message:"bhuvesh is my friend!!"
    })
-});
+})
 
 export {resigerUser};
